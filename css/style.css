@@ -2,7 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 /* End of font faces */
 
-
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: blue;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
 
 /* Mode */
 :root {
