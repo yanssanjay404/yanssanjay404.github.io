@@ -231,6 +231,10 @@ a.goTop {
 
 .card-img-top, .breadcrumb {
     border-radius: 10px;
+    width: 350px;
+}
+.card-img-top-mobile {
+    width: 350px;
 }
 /* End of other */
 
