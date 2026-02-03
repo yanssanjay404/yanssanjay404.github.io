@@ -1,693 +1,1073 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8" data-color-mode="light">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" data-color-mode="light" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Tab Icon -->
-    <link rel="icon" href="img/profile.png">
+    <link rel="icon" href="img/profile.png" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 
     <!-- Fontawesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-        crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
 
     <title>Hafiyan Rizqi Sanjaya</title>
+  </head>
 
-</head>
-
-<body id="onTop">
-
+  <body id="onTop">
     <!-- Static navbar -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container">
-            <!-- <a class="navbar-brand" href="/"><img src="img/5.png" alt="logo" title="YourName" width="36" height="36"></a> -->
-            <button class="navbar-toggler border-0 pr-0" type="button" data-toggle="collapse"
-                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <!-- <img src="img/burger-expand-3.webp" alt="option" title="Expand Navigation" width="26"></span> -->
-                <div class="nav-menu" onclick="openNavMenu(this)">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                </div>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav mx-auto navbarLinks">
-                    <a class="nav-item nav-link mx-2" href="#about">About</a>
-                    <a class="nav-item nav-link mx-2" href="#portfolio">Skill</a>
-                    <a class="nav-item nav-link mx-2" href="#experince">Experience</a>
-                    <a class="nav-item nav-link mx-2" href="#education">Education</a>
-                    <a class="nav-item nav-link mx-2" href="#certification">Certification</a>
-                    <a class="nav-item nav-link mx-2" href="#Project">Project</a>
-                    <a class="nav-item nav-link mx-2" href="#contactme">TUGAS UAS</a>
-                </div>
-                <a class="nav-item nav-link mx-2" href="#contactme"><i class="fas fa-paper-plane mr-2"></i>Contact
-                    Me</a>
-                <button class="btnChangeTheme btn btn-outline-dark btn-sm border-0 ml-3 shadow-none">
-                    <i class="far fa-moon"></i>
-                </button>
-            </div> 
+      <div class="container">
+        <!-- <a class="navbar-brand" href="/"><img src="img/5.png" alt="logo" title="YourName" width="36" height="36"></a> -->
+        <button
+          class="navbar-toggler border-0 pr-0"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <!-- <img src="img/burger-expand-3.webp" alt="option" title="Expand Navigation" width="26"></span> -->
+          <div class="nav-menu" onclick="openNavMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-auto navbarLinks">
+            <a class="nav-item nav-link mx-2" href="#about">About</a>
+            <a class="nav-item nav-link mx-2" href="#portfolio">Skill</a>
+            <a class="nav-item nav-link mx-2" href="#experince">Experience</a>
+            <a class="nav-item nav-link mx-2" href="#education">Education</a>
+            <a class="nav-item nav-link mx-2" href="#certification"
+              >Certification</a
+            >
+            <a class="nav-item nav-link mx-2" href="#Project">Project</a>
+            <a class="nav-item nav-link mx-2" href="#contactme">TUGAS UAS</a>
+          </div>
+          <a class="nav-item nav-link mx-2" href="#contactme"
+            ><i class="fas fa-paper-plane mr-2"></i>Contact Me</a
+          >
+          <button
+            class="btnChangeTheme btn btn-outline-dark btn-sm border-0 ml-3 shadow-none"
+          >
+            <i class="far fa-moon"></i>
+          </button>
         </div>
+      </div>
     </nav>
     <!-- End of static navbar -->
 
     <!-- Go top button -->
     <div class="row">
-        <div class="col">
-            <a class="goTop btn btn-secondary fixed-bottom mr-3 mb-3 ml-auto border-0 d-none" href="#onTop"
-                style="width: 50px; height: 50px;">
-                <i class="fas fa-chevron-up h4 pt-2"></i>
-            </a>
-        </div>
+      <div class="col">
+        <a
+          class="goTop btn btn-secondary fixed-bottom mr-3 mb-3 ml-auto border-0 d-none"
+          href="#onTop"
+          style="width: 50px; height: 50px"
+        >
+          <i class="fas fa-chevron-up h4 pt-2"></i>
+        </a>
+      </div>
     </div>
 
     <div id="jumbotron" class="container">
-        <div class="row">
-
-            <div class="col-md-4 text-center order-md-2">
-                <img class="jumbotronImg shadow-lg bg-white" height="350" width="350" src="img/profile.png"
-                    alt="Your Photo">
-            </div>
-
-            <div class="col-md-6 offset-lg-1 jumbotronTitle">
-                <small class="mb-0">Hello,</small>
-                <h1>My Name Hafiyan Rizqi Sanjaya</h1>
-                <br>
-                <span>I'm a</span><b><h5 class="typewrite mb-2 font-weight-lighter" data-period="2000" data-type='[ "Software Engineer","Educator","Mentor" ]'>
-                </h5></b>
-                <!-- <p class="mb-2 font-weight-lighter">Software Developer</p> -->
-                <a href="#about" class="btn btn-dark nav-item mt-4 py-2">About me</a>
-            </div>
+      <div class="row">
+        <div class="col-md-4 text-center order-md-2">
+          <img
+            class="jumbotronImg shadow-lg bg-white"
+            height="350"
+            width="350"
+            src="img/profile.png"
+            alt="Your Photo"
+          />
         </div>
+
+        <div class="col-md-6 offset-lg-1 jumbotronTitle">
+          <small class="mb-0">Hello,</small>
+          <h1>My Name Hafiyan Rizqi Sanjaya</h1>
+          <br />
+          <span>I'm a</span
+          ><b
+            ><h5
+              class="typewrite mb-2 font-weight-lighter"
+              data-period="2000"
+              data-type='[ "Software Engineer","Educator","Mentor" ]'
+            ></h5
+          ></b>
+          <!-- <p class="mb-2 font-weight-lighter">Software Developer</p> -->
+          <a href="#about" class="btn btn-dark nav-item mt-4 py-2">About me</a>
+        </div>
+      </div>
     </div>
 
     <div id="about" class="container mb-5">
-        <div class="row">
+      <div class="row">
+        <div class="col-md">
+          <div class="row">
             <div class="col-md">
-                <div class="row">
-                    <div class="col-md">
-                        <h3 class="mb-4 text-center">About me</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 col offset-lg-2">
-                        <div class="card border-0 p-3 shadow">
-                            <div class="card-body">
-                                <p class="card-text text-justify">My name is Hafiyan Rizqi Sanjaya, a software engineer who has some experience working in the field of IT companies</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              <h3 class="mb-4 text-center">About me</h3>
             </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 col offset-lg-2">
+              <div class="card border-0 p-3 shadow">
+                <div class="card-body">
+                  <p class="card-text text-justify">
+                    My name is Hafiyan Rizqi Sanjaya, a software engineer who
+                    has some experience working in the field of IT companies
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- End of about me section -->
 
     <!-- Hobby section -->
-    <div id="hobby" class="container" style="margin-bottom: 100px;">
-        <div class="row mb-4">
-            <div class="col-md">
-                <h3 class="text-center">My Hobbies</h3>
-            </div>
+    <div id="hobby" class="container" style="margin-bottom: 100px">
+      <div class="row mb-4">
+        <div class="col-md">
+          <h3 class="text-center">My Hobbies</h3>
         </div>
-        <div class="row">
-            <div class="col-md">
-                <div class="card border-0 bg-transparent mb-3" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="img/1.jpg" class="card-img shadow-lg" title="Photo bt Luca Bravo on Unsplash"
-                                alt="hobby">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body p-0 pl-3 mt-2 mb-3">
-                                <h5 class="card-title">Coding</h5>
-                            </div>
-                        </div>
-                    </div>
+      </div>
+      <div class="row">
+        <div class="col-md">
+          <div
+            class="card border-0 bg-transparent mb-3"
+            style="max-width: 540px"
+          >
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img
+                  src="img/1.jpg"
+                  class="card-img shadow-lg"
+                  title="Photo bt Luca Bravo on Unsplash"
+                  alt="hobby"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body p-0 pl-3 mt-2 mb-3">
+                  <h5 class="card-title">Coding</h5>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-md">
-                <div class="card border-0 bg-transparent mb-3 float-right" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-4 order-md-2">
-                            <img src="img/2.jpg" class="card-img shadow-lg" title="Photo bt Luca Bravo on Unsplash"
-                                alt="hobby">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body p-0 pr-md-3 pl-3 mt-2 mb-3 text-md-right">
-                                <h5 class="card-title">Badminton</h5>
-                            </div>
-                        </div>
-                    </div>
+      </div>
+      <div class="row">
+        <div class="col-md">
+          <div
+            class="card border-0 bg-transparent mb-3 float-right"
+            style="max-width: 540px"
+          >
+            <div class="row no-gutters">
+              <div class="col-md-4 order-md-2">
+                <img
+                  src="img/2.jpg"
+                  class="card-img shadow-lg"
+                  title="Photo bt Luca Bravo on Unsplash"
+                  alt="hobby"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body p-0 pr-md-3 pl-3 mt-2 mb-3 text-md-right">
+                  <h5 class="card-title">Badminton</h5>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-md">
-                <div class="card border-0 bg-transparent mb-3" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="img/book.jpg" class="card-img shadow-lg" title="Photo bt Luca Bravo on Unsplash"
-                                alt="hobby">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body p-0 pl-3 mt-2 mb-3">
-                                <h5 class="card-title">Reading Books</h5>
-                            </div>
-                        </div>
-                    </div>
+      </div>
+      <div class="row">
+        <div class="col-md">
+          <div
+            class="card border-0 bg-transparent mb-3"
+            style="max-width: 540px"
+          >
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img
+                  src="img/book.jpg"
+                  class="card-img shadow-lg"
+                  title="Photo bt Luca Bravo on Unsplash"
+                  alt="hobby"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body p-0 pl-3 mt-2 mb-3">
+                  <h5 class="card-title">Reading Books</h5>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- Portfolio section -->
     <div id="portfolio" class="container mb-5">
-        <div class="row">
-            <div class="col text-center mb-4">
-                <h3>My Skills</h3>
-            </div>
+      <div class="row">
+        <div class="col text-center mb-4">
+          <h3>My Skills</h3>
         </div>
-        <div class="row">
-            <div class="col-xl-4 col-md-6 mb-4">
-                <div class="card shadow border-0">
-                    <img src="img/program.jpg" class="card-img-top" alt="portfolio" height="200px">
-                    <div class="card-body">
-                        <h5 class="card-title">Programming</h5>
-                        <p class="card-text text-justify">- JavaScript</p>
-                        <p class="card-text text-justify">- TypeScript</p>
-                        <p class="card-text text-justify">- PHP</p>
-                        <p class="card-text text-justify">- NodeJs</p>
-                        <p class="card-text text-justify">- Laravel</p>
-                        <p class="card-text text-justify">- ExpressJs</p>
-                        <p class="card-text text-justify">- NestJs</p>
-                        <p class="card-text text-justify">- Ts.Ed</p>
-                        <!-- <a class="btn btn-dark px-3 nav-item" href="#" target="blank">Show</a> -->
-                    </div>
-                </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-md-6 mb-4">
+          <div class="card shadow border-0">
+            <img
+              src="img/program.jpg"
+              class="card-img-top"
+              alt="portfolio"
+              height="200px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Programming</h5>
+              <p class="card-text text-justify">- JavaScript</p>
+              <p class="card-text text-justify">- TypeScript</p>
+              <p class="card-text text-justify">- PHP</p>
+              <p class="card-text text-justify">- Python</p>
+              <p class="card-text text-justify">- VB.Net</p>
+              <p class="card-text text-justify">- Golang</p>
+              <p class="card-text text-justify">- NodeJs</p>
+              <p class="card-text text-justify">- Ts.Ed</p>
+              <p class="card-text text-justify">- NestJs</p>
+              <p class="card-text text-justify">- ExpressJs</p>
+              <p class="card-text text-justify">- Laravel</p>
+              <p class="card-text text-justify">- Codeigniter</p>
+              <p class="card-text text-justify">- ReactJs</p>
+              <p class="card-text text-justify">- React Native</p>
             </div>
-            <div class="col-xl-4 col-md-6 mb-4">
-                <div class="card shadow border-0">
-                    <img src="img/db.png" class="card-img-top" alt="portfolio" height="200px">
-                    <div class="card-body">
-                        <h5 class="card-title">Database</h5>
-                        <p class="card-text text-justify">- MySQL</p>
-                        <p class="card-text text-justify">- Mongodb</p>
-                        <p class="card-text text-justify">- PostgreSQL</p>
-                        <!-- <a class="btn btn-dark px-3 nav-item" href="#" target="blank">Show</a> -->
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-md-6 mb-4">
-                <div class="card shadow border-0">
-                    <img src="img/other.jpg" class="card-img-top" alt="portfolio" height="200px">
-                    <div class="card-body">
-                        <h5 class="card-title">Other</h5>
-                        <p class="card-text text-justify">- Firebase</p>
-                        <p class="card-text text-justify">- Blockchain</p>
-                        <p class="card-text text-justify">- AWS Cloud</p>
-                        <p class="card-text text-justify">- GIT</p>
-                        <!-- <a class="btn btn-dark px-3 nav-item" href="#" target="blank">Show</a> -->
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="col-xl-4 col-md-6 mb-4">
+          <div class="card shadow border-0">
+            <img
+              src="img/db.png"
+              class="card-img-top"
+              alt="portfolio"
+              height="200px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Database</h5>
+              <p class="card-text text-justify">- MySQL</p>
+              <p class="card-text text-justify">- Mongodb</p>
+              <p class="card-text text-justify">- PostgreSQL</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6 mb-4">
+          <div class="card shadow border-0">
+            <img
+              src="img/other.jpg"
+              class="card-img-top"
+              alt="portfolio"
+              height="200px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Other</h5>
+              <p class="card-text text-justify">- Firebase</p>
+              <p class="card-text text-justify">- AWS Cloud</p>
+              <p class="card-text text-justify">- GIT</p>
+              <p class="card-text text-justify">- Real Time Data</p>
+              <p class="card-text text-justify">- Scrapping</p>
+              <p class="card-text text-justify">
+                - Task Management (Jira & Trello)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- End of portfolio section -->
 
-    <!-- Hobby section -->
-    <div id="experince" class="container" style="margin-bottom: 100px;">
-        <div class="row mb-4">
-            <div class="col-md">
-                <h3 class="text-center">Experience</h3>
-            </div>
+    <!-- Experience section -->
+    <div id="experince" class="container" style="margin-bottom: 100px">
+      <div class="row mb-4">
+        <div class="col-md">
+          <h3 class="text-center">Experience</h3>
         </div>
+      </div>
 
-        <div class="row">
-            <div class="col-md">
-                <div class="card border-0 bg-transparent mb-3 float-right" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-4 order-md-2">
-                            <img src="img/tb-removebg-preview.png" class="card-img shadow-lg" title="Photo bt Luca Bravo on Unsplash"
-                                alt="hobby">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body p-0 pr-md-3 pl-3 mt-2 mb-3 text-md-right">
-                                <h5 class="card-title">SMK Taruna Bangsa Kota Bekasi</h5>
-                                <p class="card-text"> <b>Period :</b> July 2023 - Now </p>
-                                <p class="card-text"> <b>Posisition : Teacher & IT Developer </b>  </p>
-                                <p class="card-text"><b>Jobdesk :</b></p>
-                                <p class="card-text"> - Programming </p>
-                                <p class="card-text"> - Networking </p>
-                                <p class="card-text"> - Databases </p>
-                            </div>
-                        </div>
-                    </div>
+      <div class="row">
+        <div class="col-md">
+          <div
+            class="card border-0 bg-transparent mb-3 float-right"
+            style="max-width: 540px"
+          >
+            <div class="row no-gutters">
+              <div class="col-md-4 order-md-2">
+                <img
+                  src="img/tb-removebg-preview.png"
+                  class="card-img shadow-lg"
+                  title="Talent Insider"
+                  alt="experience"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body p-0 pr-md-3 pl-3 mt-2 mb-3 text-md-right">
+                  <h5 class="card-title">Talent Insider</h5>
+                  <p class="card-text"><b>Period :</b> July 2025 - Present</p>
+                  <p class="card-text"><b>Position : Backend Engineer</b></p>
+                  <p class="card-text"><b>Jobdesk :</b></p>
+                  <p class="card-text">
+                    - Developing backend services using Node.js & NestJS
+                  </p>
+                  <p class="card-text">
+                    - Designing and creating APIs for client requirements
+                  </p>
+                  <p class="card-text">
+                    - Database management with MySQL & Laravel
+                  </p>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
-        <div class="row">
-            <div class="col-md">
-                <div class="card border-0 bg-transparent mb-3" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="img/logobwa.png" class="card-img shadow-lg" title="Photo bt Luca Bravo on Unsplash"
-                                alt="hobby">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body p-0 pl-3 mt-2 mb-3">
-                                <h5 class="card-title">BuildWithAngga</h5>
-                                <p class="card-text"> <b>Period : </b> February 2024 - May </p>
-                                <p class="card-text"> <b>Posisition : Content Writer</b>  </p>
-                                <p class="card-text"><b>Jobdesk :</b></p>
-                                <p class="card-text"> - Content Writing </p>
-                                <p class="card-text"> - Content Updates </p>
-                                <p class="card-text"> - Use of Content Platforms </p>
-                            </div>
-                        </div>
-                    </div>
+      <div class="row">
+        <div class="col-md">
+          <div
+            class="card border-0 bg-transparent mb-3"
+            style="max-width: 540px"
+          >
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img
+                  src="img/logo.png"
+                  class="card-img shadow-lg"
+                  title="TyperHub"
+                  alt="experience"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body p-0 pl-3 mt-2 mb-3">
+                  <h5 class="card-title">TyperHub</h5>
+                  <p class="card-text">
+                    <b>Period :</b> December 2022 - Present (3 yrs 3 mons)
+                  </p>
+                  <p class="card-text">
+                    <b>Position : Full Stack Developer (Freelance)</b>
+                  </p>
+                  <p class="card-text"><b>Jobdesk :</b></p>
+                  <p class="card-text">
+                    - Developing full stack web and mobile applications
+                  </p>
+                  <p class="card-text">
+                    - Building APIs with Express.js and Node.js
+                  </p>
+                  <p class="card-text">
+                    - Implementing cloud solutions using AWS (EC2, S3) &
+                    Firebase
+                  </p>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
-        <div class="row">
-            <div class="col-md">
-                <div class="card border-0 bg-transparent mb-3 float-right" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-4 order-md-2">
-                            <img src="img/LogoJakdata.png" class="card-img shadow-lg" title="Photo bt Luca Bravo on Unsplash"
-                                alt="hobby">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body p-0 pr-md-3 pl-3 mt-2 mb-3 text-md-right">
-                                <h5 class="card-title">JakData</h5>
-                                <p class="card-text"> <b>Period : </b> July 2023 - August 2023 </p>
-                                <p class="card-text"> <b>Posisition : Backend Engineer</b>  </p>
-                                <p class="card-text"><b>Jobdesk :</b></p>
-                                <p class="card-text"> - Designing Data model structures </p>
-                                <p class="card-text"> - Create an API for Client </p>
-                                <p class="card-text"> - Manage task of Backend Engineer </p>
-                            </div>
-                        </div>
-                    </div>
+      <div class="row">
+        <div class="col-md">
+          <div
+            class="card border-0 bg-transparent mb-3 float-right"
+            style="max-width: 540px"
+          >
+            <div class="row no-gutters">
+              <div class="col-md-4 order-md-2">
+                <img
+                  src="img/logo.png"
+                  class="card-img shadow-lg"
+                  title="Maju Bareng Sekawan"
+                  alt="experience"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body p-0 pr-md-3 pl-3 mt-2 mb-3 text-md-right">
+                  <h5 class="card-title">Maju Bareng Sekawan</h5>
+                  <p class="card-text">
+                    <b>Period :</b> October 2024 - June 2025
+                  </p>
+                  <p class="card-text">
+                    <b>Position : Back End Developer (Freelance)</b>
+                  </p>
+                  <p class="card-text"><b>Jobdesk :</b></p>
+                  <p class="card-text">
+                    - Building backend services with Node.js & TypeScript
+                  </p>
+                  <p class="card-text">
+                    - Managing MongoDB databases and caching with Redis
+                  </p>
+                  <p class="card-text">
+                    - API development and server-side optimization
+                  </p>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
-        <div class="row">
-            <div class="col-md">
-                <div class="card border-0 bg-transparent mb-3" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="img/logo.png" class="card-img shadow-lg" title="Photo bt Luca Bravo on Unsplash"
-                                alt="hobby">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body p-0 pl-3 mt-2 mb-3">
-                                <h5 class="card-title">Citcet</h5>
-                                <p class="card-text"> <b>Period :</b> December 2022 - Now </p>
-                                <p class="card-text"> <b>Posisition : Backend Engineer </b> </p>
-                                <p class="card-text"><b>Jobdesk :</b></p>
-                                <p class="card-text"> - Designing Data model structures </p>
-                                <p class="card-text"> - Create an API for Client </p>
-                                <p class="card-text"> - Manage task of Backend Engineer </p>
-                            </div>
-                        </div>
-                    </div>
+      <div class="row">
+        <div class="col-md">
+          <div
+            class="card border-0 bg-transparent mb-3"
+            style="max-width: 540px"
+          >
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img
+                  src="img/logo.png"
+                  class="card-img shadow-lg"
+                  title="DRX Wear"
+                  alt="experience"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body p-0 pl-3 mt-2 mb-3">
+                  <h5 class="card-title">DRX Wear</h5>
+                  <p class="card-text">
+                    <b>Period :</b> September 2024 - May 2025
+                  </p>
+                  <p class="card-text">
+                    <b>Position : Back End Developer (Contract)</b>
+                  </p>
+                  <p class="card-text"><b>Jobdesk :</b></p>
+                  <p class="card-text">
+                    - Developing backend infrastructure with Node.js &
+                    Express.js
+                  </p>
+                  <p class="card-text">
+                    - Implementing Web 3 features and smart contracts
+                  </p>
+                  <p class="card-text">
+                    - API design and deployment using TypeScript
+                  </p>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
-        <div class="row">
-            <div class="col-md">
-                <div class="card border-0 bg-transparent mb-3 float-right" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-4 order-md-2">
-                            <img src="img/gtb.png" class="card-img shadow-lg" title="Photo bt Luca Bravo on Unsplash"
-                                alt="hobby">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body p-0 pr-md-3 pl-3 mt-2 mb-3 text-md-right">
-                                <h5 class="card-title">PT Galeri Teknologi Bersama</h5>
-                                <p class="card-text"> <b>Period :</b> June 2022 - October 2022 </p>
-                                <p class="card-text"> <b>Posisition : Fullstack Web Dev </b> </p>
-                                <p class="card-text"><b>Jobdesk :</b></p>
-                                <p class="card-text"> - Monitoring work from the ticketing application </p>
-                                <p class="card-text"> - Identify and make improvements to errors/bugs on programs that
-                                    have been used by users on an ongoing basis </p>
-                                <p class="card-text"> - Analyze and report customer needs about the application to be
-                                    developed </p>
-                            </div>
-                        </div>
-                    </div>
+      <div class="row">
+        <div class="col-md">
+          <div
+            class="card border-0 bg-transparent mb-3 float-right"
+            style="max-width: 540px"
+          >
+            <div class="row no-gutters">
+              <div class="col-md-4 order-md-2">
+                <img
+                  src="img/logo.png"
+                  class="card-img shadow-lg"
+                  title="DRX Sportech"
+                  alt="experience"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body p-0 pr-md-3 pl-3 mt-2 mb-3 text-md-right">
+                  <h5 class="card-title">DRX Sportech Company</h5>
+                  <p class="card-text">
+                    <b>Period :</b> September 2024 - May 2025
+                  </p>
+                  <p class="card-text">
+                    <b>Position : Back End Developer (Contract)</b>
+                  </p>
+                  <p class="card-text"><b>Jobdesk :</b></p>
+                  <p class="card-text">
+                    - Creating robust backend services with Node.js & MySQL
+                  </p>
+                  <p class="card-text">
+                    - Designing database schemas and optimizing queries
+                  </p>
+                  <p class="card-text">
+                    - Implementing Web 3 solutions and blockchain integration
+                  </p>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
-        <div class="row">
-            <div class="col-md">
-                <div class="card border-0 bg-transparent mb-3" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="img/duhans.jpg" class="card-img shadow-lg" title="Photo bt Luca Bravo on Unsplash"
-                                alt="hobby">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body p-0 pl-3 mt-2 mb-3">
-                                <h5 class="card-title">PT Duhans Teknologi Indonesia</h5>
-                                <p class="card-text"><b>Period :</b></p>
-                                <p class="card-text">- June 2021 - May 2022 (Contract)</p>
-                                <p class="card-text">- November - May 2021 (Internship)</p>
-                                <p class="card-text"> <b>Posisition : Backend Engineer </b> </p>
-                                <p class="card-text"><b>Jobdesk :</b></p>
-                                <p class="card-text"> - Designing Data model structures </p>
-                                <p class="card-text"> - Create an API for Client </p>
-                                <p class="card-text"> - Manage task of Backend Engineer </p>
-                            </div>
-                        </div>
-                    </div>
+      <div class="row">
+        <div class="col-md">
+          <div
+            class="card border-0 bg-transparent mb-3"
+            style="max-width: 540px"
+          >
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img
+                  src="img/tb-removebg-preview.png"
+                  class="card-img shadow-lg"
+                  title="SMKS Taruna Bangsa"
+                  alt="experience"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body p-0 pl-3 mt-2 mb-3">
+                  <h5 class="card-title">SMKS Taruna Bangsa Bekasi</h5>
+                  <p class="card-text">
+                    <b>Period :</b> July 2023 - September 2024
+                  </p>
+                  <p class="card-text">
+                    <b>Position : Labkom Assistant & IT Developer (Contract)</b>
+                  </p>
+                  <p class="card-text"><b>Jobdesk :</b></p>
+                  <p class="card-text">
+                    - Teaching programming and networking courses
+                  </p>
+                  <p class="card-text">
+                    - Developing educational software applications
+                  </p>
+                  <p class="card-text">
+                    - Managing lab infrastructure and student projects
+                  </p>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
-        <div class="row">
-            <div class="col-md">
-                <div class="card border-0 bg-transparent mb-3 float-right" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-4 order-md-2">
-                            <img src="img/bpn.jpg" class="card-img shadow-lg" title="Photo bt Luca Bravo on Unsplash"
-                                alt="hobby">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body p-0 pr-md-3 pl-3 mt-2 mb-3 text-md-right">
-                                <h5 class="card-title">Badan Pertanahan Nasional</h5>
-                                <p class="card-text"> <b>Period :</b> September - December 2019 </p>
-                                <p class="card-text"> <b>Posisition :Staff Admin </b> </p>
-                                <p class="card-text"><b>Jobdesk :</b></p>
-                                <p class="card-text"> - Collecting and Compiling Documents </p>
-                                <p class="card-text"> - Input BPN Office Data </p>
-                                <p class="card-text"> - Validate Data </p>
-                            </div>
-                        </div>
-                    </div>
+      <div class="row">
+        <div class="col-md">
+          <div
+            class="card border-0 bg-transparent mb-3 float-right"
+            style="max-width: 540px"
+          >
+            <div class="row no-gutters">
+              <div class="col-md-4 order-md-2">
+                <img
+                  src="img/gtb.png"
+                  class="card-img shadow-lg"
+                  title="PT Galeri Teknologi Bersama"
+                  alt="experience"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body p-0 pr-md-3 pl-3 mt-2 mb-3 text-md-right">
+                  <h5 class="card-title">PT Galeri Teknologi Bersama</h5>
+                  <p class="card-text">
+                    <b>Period :</b> June 2022 - October 2022
+                  </p>
+                  <p class="card-text">
+                    <b>Position : Full-Stack Web Developer (Contract)</b>
+                  </p>
+                  <p class="card-text"><b>Jobdesk :</b></p>
+                  <p class="card-text">
+                    - Developing full-stack web applications with PHP & Node.js
+                  </p>
+                  <p class="card-text">
+                    - Building responsive user interfaces with HTML & CSS
+                  </p>
+                  <p class="card-text">
+                    - Database management and API integration
+                  </p>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md">
+          <div
+            class="card border-0 bg-transparent mb-3"
+            style="max-width: 540px"
+          >
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img
+                  src="img/duhans.jpg"
+                  class="card-img shadow-lg"
+                  title="Duhans Technologies"
+                  alt="experience"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body p-0 pl-3 mt-2 mb-3">
+                  <h5 class="card-title">Duhans Technologies</h5>
+                  <p class="card-text"><b>Period :</b></p>
+                  <p class="card-text">- June 2021 - May 2022 (Contract)</p>
+                  <p class="card-text">
+                    - November 2020 - May 2021 (Internship)
+                  </p>
+                  <p class="card-text"><b>Position : Back End Developer</b></p>
+                  <p class="card-text"><b>Jobdesk :</b></p>
+                  <p class="card-text">
+                    - Designing and implementing RESTful APIs using Express.js
+                  </p>
+                  <p class="card-text">
+                    - Database design and optimization with MongoDB & PostgreSQL
+                  </p>
+                  <p class="card-text">
+                    - API documentation and testing with Postman & Swagger
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md">
+          <div
+            class="card border-0 bg-transparent mb-3 float-right"
+            style="max-width: 540px"
+          >
+            <div class="row no-gutters">
+              <div class="col-md-4 order-md-2">
+                <img
+                  src="img/bpn.jpg"
+                  class="card-img shadow-lg"
+                  title="Badan Pertanahan Nasional"
+                  alt="experience"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body p-0 pr-md-3 pl-3 mt-2 mb-3 text-md-right">
+                  <h5 class="card-title">Badan Pertanahan Nasional</h5>
+                  <p class="card-text">
+                    <b>Period :</b> September - December 2019
+                  </p>
+                  <p class="card-text">
+                    <b>Position : Staff Admin (Internship)</b>
+                  </p>
+                  <p class="card-text"><b>Jobdesk :</b></p>
+                  <p class="card-text">
+                    - Managing and organizing administrative documents
+                  </p>
+                  <p class="card-text">- Data entry and database management</p>
+                  <p class="card-text">
+                    - Supporting office operations and reporting
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- End of Experience section -->
 
-    <div id="education" class="container" style="margin-bottom: 100px;">
-        <div class="row mb-4">
-            <div class="col-md">
-                <h3 class="text-center">Education</h3>
-            </div>
+    <div id="education" class="container" style="margin-bottom: 100px">
+      <div class="row mb-4">
+        <div class="col-md">
+          <h3 class="text-center">Education</h3>
         </div>
-        <div class="row">
-            <div class="col-md">
-                <div class="card border-0 bg-transparent mb-3" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="img/bhayangkara-removebg-preview.png" class="card-img shadow-lg"
-                                title="Photo bt Luca Bravo on Unsplash" alt="hobby">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body p-0 pl-3 mt-2 mb-3">
-                                <h5 class="card-title">Universitas Bhayangkara Jakarta Raya</h5>
-                                <p class="card-text"> <b>Informatika</b> </p>
-                                <p class="card-text"> <b>2022 - Now</b> </p>
-                            </div>
-                        </div>
-                    </div>
+      </div>
+      <div class="row">
+        <div class="col-md">
+          <div
+            class="card border-0 bg-transparent mb-3"
+            style="max-width: 540px"
+          >
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img
+                  src="img/bhayangkara-removebg-preview.png"
+                  class="card-img shadow-lg"
+                  title="Photo bt Luca Bravo on Unsplash"
+                  alt="hobby"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body p-0 pl-3 mt-2 mb-3">
+                  <h5 class="card-title">
+                    Universitas Bhayangkara Jakarta Raya
+                  </h5>
+                  <p class="card-text"><b>Informatika</b></p>
+                  <p class="card-text"><b>2022 - Now</b></p>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-md">
-                <div class="card border-0 bg-transparent mb-3 float-right" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-4 order-md-2">
-                            <img src="img/tb-removebg-preview.png" class="card-img shadow-lg" title="Photo bt Luca Bravo on Unsplash"
-                                alt="hobby">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body p-0 pr-md-3 pl-3 mt-2 mb-3 text-md-right">
-                                <h5 class="card-title">SMK Taruna Bangsa Kota Bekasi</h5>
-                                <p class="card-text"> <b>Rekayasa Perangkat Lunak</b> </p>
-                                <p class="card-text"> <b>2018 - 2021</b> </p>
-                            </div>
-                        </div>
-                    </div>
+      </div>
+      <div class="row">
+        <div class="col-md">
+          <div
+            class="card border-0 bg-transparent mb-3 float-right"
+            style="max-width: 540px"
+          >
+            <div class="row no-gutters">
+              <div class="col-md-4 order-md-2">
+                <img
+                  src="img/tb-removebg-preview.png"
+                  class="card-img shadow-lg"
+                  title="Photo bt Luca Bravo on Unsplash"
+                  alt="hobby"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body p-0 pr-md-3 pl-3 mt-2 mb-3 text-md-right">
+                  <h5 class="card-title">SMK Taruna Bangsa Kota Bekasi</h5>
+                  <p class="card-text"><b>Rekayasa Perangkat Lunak</b></p>
+                  <p class="card-text"><b>2018 - 2021</b></p>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
-    <div id="certification" class="container" style="margin-bottom: 100px;">
-        <div class="row mb-4">
-            <div class="col-md">
-                <h3 class="text-center">Certification</h3>
-            </div>
+    <div id="certification" class="container" style="margin-bottom: 100px">
+      <div class="row mb-4">
+        <div class="col-md">
+          <h3 class="text-center">Certification</h3>
         </div>
-        <div class="row">
-            <div class="col-md">
-                <div class="card border-0 bg-transparent mb-3" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="img/dts-mono.png" class="card-img shadow-lg"
-                                title="Photo bt Luca Bravo on Unsplash" alt="hobby">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body p-0 pl-3 mt-2 mb-3">
-                                <h5 class="card-title">Data Scientist</h5>
-                                <p class="card-text"> <b>Digitalent (KOMINFO)</b> </p>
-                                <p class="card-text"> <b>2022</b> </p>
-                            </div>
-                        </div>
-                    </div>
+      </div>
+      <div class="row">
+        <div class="col-md">
+          <div
+            class="card border-0 bg-transparent mb-3"
+            style="max-width: 540px"
+          >
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img
+                  src="img/dts-mono.png"
+                  class="card-img shadow-lg"
+                  title="Photo bt Luca Bravo on Unsplash"
+                  alt="hobby"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body p-0 pl-3 mt-2 mb-3">
+                  <h5 class="card-title">Data Scientist</h5>
+                  <p class="card-text"><b>Digitalent (KOMINFO)</b></p>
+                  <p class="card-text"><b>2022</b></p>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-md">
-                <div class="card border-0 bg-transparent mb-3 float-right" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-4 order-md-2">
-                            <img src="img/bnsp.png" class="card-img shadow-lg" title="Photo bt Luca Bravo on Unsplash"
-                                alt="hobby">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body p-0 pr-md-3 pl-3 mt-2 mb-3 text-md-right">
-                                <h5 class="card-title">Web Developer</h5>
-                                <p class="card-text"> <b>Badan Nasional Sertifikasi Profesi (BNSP)</b> </p>
-                                <p class="card-text"> <b>2021</b> </p>
-                            </div>
-                        </div>
-                    </div>
+      </div>
+      <div class="row">
+        <div class="col-md">
+          <div
+            class="card border-0 bg-transparent mb-3 float-right"
+            style="max-width: 540px"
+          >
+            <div class="row no-gutters">
+              <div class="col-md-4 order-md-2">
+                <img
+                  src="img/bnsp.png"
+                  class="card-img shadow-lg"
+                  title="Photo bt Luca Bravo on Unsplash"
+                  alt="hobby"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body p-0 pr-md-3 pl-3 mt-2 mb-3 text-md-right">
+                  <h5 class="card-title">Web Developer</h5>
+                  <p class="card-text">
+                    <b>Badan Nasional Sertifikasi Profesi (BNSP)</b>
+                  </p>
+                  <p class="card-text"><b>2021</b></p>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- project mobile -->
     <div id="Project" class="container mb-5">
-        <div class="row">
-            <div class="col text-center mb-4">
-                <h3>Project Mobile</h3>
-            </div>
+      <div class="row">
+        <div class="col text-center mb-4">
+          <h3>Project Mobile</h3>
         </div>
+      </div>
 
-        <div class="row">
-            <div class="col-xl-4 col-md-6 mb-4">
-                <div class="card shadow border-0">
-                    <img src="img/citcet.jpeg" class="card-img-top-mobile" alt="portfolio" height="590px">
-                    <div class="card-body">
-                        <h5 class="card-title">Citcet</h5>
-                        <!-- <a class="btn btn-dark px-3 nav-item" href="#" target="blank">Show</a> -->
-                    </div>
-                </div>
+      <div class="row">
+        <div class="col-xl-4 col-md-6 mb-4">
+          <div class="card shadow border-0">
+            <img
+              src="img/citcet.jpeg"
+              class="card-img-top-mobile"
+              alt="portfolio"
+              height="590px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Citcet</h5>
+              <!-- <a class="btn btn-dark px-3 nav-item" href="#" target="blank">Show</a> -->
             </div>
-            <div class="col-xl-4 col-md-6 mb-4">
-                <div class="card shadow border-0">
-                    <img src="img/smartrw.jpeg" class="card-img-top-mobile" alt="portfolio" height="590px">
-                    <div class="card-body">
-                        <h5 class="card-title">Smart Rw</h5>
-                        <!-- <a class="btn btn-dark px-3 nav-item" href="#" target="blank">Show</a> -->
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-md-6 mb-4">
-                <div class="card shadow border-0">
-                    <img src="img/dicheck.jpeg" class="card-img-top-mobile" alt="portfolio" height="590px">
-                    <div class="card-body">
-                        <h5 class="card-title">Dicheck</h5>
-                        <!-- <a class="btn btn-dark px-3 nav-item" href="#" target="blank">Show</a> -->
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-
-        <div class="row">
-            <div class="col-xl-4 col-md-6 mb-4">
-                <div class="card shadow border-0">
-                    <img src="img/finance.jpg" class="card-img-top-mobile" alt="portfolio" height="590px">
-                    <div class="card-body">
-                        <h5 class="card-title">Financial Management</h5>
-                        <!-- <a class="btn btn-dark px-3 nav-item" href="#" target="blank">Show</a> -->
-                    </div>
-                </div>
+        <div class="col-xl-4 col-md-6 mb-4">
+          <div class="card shadow border-0">
+            <img
+              src="img/smartrw.jpeg"
+              class="card-img-top-mobile"
+              alt="portfolio"
+              height="590px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Smart Rw</h5>
+              <!-- <a class="btn btn-dark px-3 nav-item" href="#" target="blank">Show</a> -->
             </div>
+          </div>
         </div>
+        <div class="col-xl-4 col-md-6 mb-4">
+          <div class="card shadow border-0">
+            <img
+              src="img/dicheck.jpeg"
+              class="card-img-top-mobile"
+              alt="portfolio"
+              height="590px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Dicheck</h5>
+              <!-- <a class="btn btn-dark px-3 nav-item" href="#" target="blank">Show</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="col-xl-4 col-md-6 mb-4">
+          <div class="card shadow border-0">
+            <img
+              src="img/finance.jpg"
+              class="card-img-top-mobile"
+              alt="portfolio"
+              height="590px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Financial Management</h5>
+              <!-- <a class="btn btn-dark px-3 nav-item" href="#" target="blank">Show</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- project web -->
     <div id="Project" class="container mb-5">
-        <div class="row">
-            <div class="col text-center mb-4">
-                <h3>Project Web</h3>
-            </div>
+      <div class="row">
+        <div class="col text-center mb-4">
+          <h3>Project Web</h3>
         </div>
+      </div>
 
-        <div class="row">
-            <div class="col-xl-4 col-md-6 mb-4">
-                <div class="card shadow border-0">
-                    <img src="img/hydroponik.jpeg" class="card-img-top" alt="portfolio" height="370px">
-                    <div class="card-body">
-                        <h5 class="card-title">Smart Hydroponik</h5>
-                        <!-- <a class="btn btn-dark px-3 nav-item" href="#" target="blank">Show</a> -->
-                    </div>
-                </div>
+      <div class="row">
+        <div class="col-xl-4 col-md-6 mb-4">
+          <div class="card shadow border-0">
+            <img
+              src="img/hydroponik.jpeg"
+              class="card-img-top"
+              alt="portfolio"
+              height="370px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Smart Hydroponik</h5>
+              <!-- <a class="btn btn-dark px-3 nav-item" href="#" target="blank">Show</a> -->
             </div>
-            <div class="col-xl-4 col-md-6 mb-4">
-                <div class="card shadow border-0">
-                    <img src="img/hydromart.jpeg" class="card-img-top" alt="portfolio" height="370px">
-                    <div class="card-body">
-                        <h5 class="card-title">Hydromart</h5>
-                        <!-- <a class="btn btn-dark px-3 nav-item" href="#" target="blank">Show</a> -->
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-md-6 mb-4">
-                <div class="card shadow border-0">
-                    <img src="img/erp.jpeg" class="card-img-top" alt="portfolio" height="370px">
-                    <div class="card-body">
-                        <h5 class="card-title">System ERP</h5>
-                        <!-- <a class="btn btn-dark px-3 nav-item" href="#" target="blank">Show</a> -->
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="col-xl-4 col-md-6 mb-4">
+          <div class="card shadow border-0">
+            <img
+              src="img/hydromart.jpeg"
+              class="card-img-top"
+              alt="portfolio"
+              height="370px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Hydromart</h5>
+              <!-- <a class="btn btn-dark px-3 nav-item" href="#" target="blank">Show</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6 mb-4">
+          <div class="card shadow border-0">
+            <img
+              src="img/erp.jpeg"
+              class="card-img-top"
+              alt="portfolio"
+              height="370px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">System ERP</h5>
+              <!-- <a class="btn btn-dark px-3 nav-item" href="#" target="blank">Show</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
 
-        <div class="row">
-            <div class="col-xl-4 col-md-6 mb-4">
-                <div class="card shadow border-0">
-                    <img src="img/gawe.jpeg" class="card-img-top" alt="portfolio" height="370px">
-                    <div class="card-body">
-                        <h5 class="card-title">Working Space</h5>
-                        <!-- <a class="btn btn-dark px-3 nav-item" href="#" target="blank">Show</a> -->
-                    </div>
-                </div>
+      <div class="row">
+        <div class="col-xl-4 col-md-6 mb-4">
+          <div class="card shadow border-0">
+            <img
+              src="img/gawe.jpeg"
+              class="card-img-top"
+              alt="portfolio"
+              height="370px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Working Space</h5>
+              <!-- <a class="btn btn-dark px-3 nav-item" href="#" target="blank">Show</a> -->
             </div>
-            <div class="col-xl-4 col-md-6 mb-4">
-                <div class="card shadow border-0">
-                    <img src="img/smart-kitchen.jpeg" class="card-img-top" alt="portfolio" height="370px">
-                    <div class="card-body">
-                        <h5 class="card-title">Smart Kitchen</h5>
-                        <!-- <a class="btn btn-dark px-3 nav-item" href="#" target="blank">Show</a> -->
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-md-6 mb-4">
-                <div class="card shadow border-0">
-                    <img src="img/jakdata.jpeg" class="card-img-top" alt="portfolio" height="370px">
-                    <div class="card-body">
-                        <h5 class="card-title">Jakdata</h5>
-                        <!-- <a class="btn btn-dark px-3 nav-item" href="#" target="blank">Show</a> -->
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="col-xl-4 col-md-6 mb-4">
+          <div class="card shadow border-0">
+            <img
+              src="img/smart-kitchen.jpeg"
+              class="card-img-top"
+              alt="portfolio"
+              height="370px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Smart Kitchen</h5>
+              <!-- <a class="btn btn-dark px-3 nav-item" href="#" target="blank">Show</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6 mb-4">
+          <div class="card shadow border-0">
+            <img
+              src="img/jakdata.jpeg"
+              class="card-img-top"
+              alt="portfolio"
+              height="370px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Jakdata</h5>
+              <!-- <a class="btn btn-dark px-3 nav-item" href="#" target="blank">Show</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
 
-        <div class="row">
-            <div class="col-xl-4 col-md-6 mb-4">
-                <div class="card shadow border-0">
-                    <img src="img/profile-rpl.png" class="card-img-top" alt="portfolio" height="300px">
-                    <div class="card-body">
-                        <h5 class="card-title">Profile RPL</h5>
-                        <!-- <a class="btn btn-dark px-3 nav-item" href="#" target="blank">Show</a> -->
-                    </div>
-                </div>
+      <div class="row">
+        <div class="col-xl-4 col-md-6 mb-4">
+          <div class="card shadow border-0">
+            <img
+              src="img/profile-rpl.png"
+              class="card-img-top"
+              alt="portfolio"
+              height="300px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Profile RPL</h5>
+              <!-- <a class="btn btn-dark px-3 nav-item" href="#" target="blank">Show</a> -->
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- project desktop -->
     <div id="Project" class="container mb-5">
-        <div class="row">
-            <div class="col text-center mb-4">
-                <h3>Project Desktop</h3>
-                <h6>Coming Soon</h6>
-            </div>
+      <div class="row">
+        <div class="col text-center mb-4">
+          <h3>Project Desktop</h3>
+          <h6>Coming Soon</h6>
         </div>
+      </div>
     </div>
 
     <!-- Contact me section -->
     <div id="contactme" class="container">
-        <div class="row">
-            <div class="col-md align-self-center text-center mb-3">
-                <h3>Contact Me</h3>
-                <br>
-                <p class="card-text"> <img src="img/gmail.png" alt="" height="25px" style="padding-right: 5px;" width="30px"> itconsultant@hafiyanrizqisanjaya.com</p>
-                <p class="card-text"> <img src="img/location.png" height="30px" style="padding-right: 5px;" width="35px" alt=""> Kota Bekasi Jawa Barat Indonesia</p>
-                <a href="https://hafiyan-uas-202210715057.hafiyanrizqisanjaya.com/" class="btn btn-dark nav-item mt-4 py-2">Web Crud</a>
-            </div>
+      <div class="row">
+        <div class="col-md align-self-center text-center mb-3">
+          <h3>Contact Me</h3>
+          <br />
+          <p class="card-text">
+            <img
+              src="img/gmail.png"
+              alt=""
+              height="25px"
+              style="padding-right: 5px"
+              width="30px"
+            />
+            itconsultant@hafiyanrizqisanjaya.com
+          </p>
+          <p class="card-text">
+            <img
+              src="img/location.png"
+              height="30px"
+              style="padding-right: 5px"
+              width="35px"
+              alt=""
+            />
+            Kota Bekasi Jawa Barat Indonesia
+          </p>
+          <a
+            href="https://hafiyan-uas-202210715057.hafiyanrizqisanjaya.com/"
+            class="btn btn-dark nav-item mt-4 py-2"
+            >Web Crud</a
+          >
         </div>
+      </div>
     </div>
     <!-- End of contact me section -->
 
     <!-- Footer -->
-    <footer id="footer" class="pt-5 myFooter" style="margin-top: 140px;">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <a href="https://github.com/yanssanjay404">Github</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col mb-4 mt-4">
-                    <a href="https://www.linkedin.com/in/hafiyan-rizqi-sanjaya-b3b0a8208/">LinkedIn</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col mb-4">
-                    <a href="https://www.instagram.com/yan_rizqi03/">Instagram</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col mb-4">
-                    <a href="https://linktr.ee/hafiyanrizqisanjaya">Linktree</a>
-                </div>
-            </div>
-            <div class="row pt-3 border-top border-light">
-                <div class="col-md-6 text-center text-md-left pb-3">
-                    <p class="card-text">&#169; 2021 - Hafiyan Rizqi Sanjaya</p>
-                </div>
-            </div>
+    <footer id="footer" class="pt-5 myFooter" style="margin-top: 140px">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <a href="https://github.com/yanssanjay404">Github</a>
+          </div>
         </div>
+        <div class="row">
+          <div class="col mb-4 mt-4">
+            <a
+              href="https://www.linkedin.com/in/hafiyan-rizqi-sanjaya-b3b0a8208/"
+              >LinkedIn</a
+            >
+          </div>
+        </div>
+        <div class="row">
+          <div class="col mb-4">
+            <a href="https://www.instagram.com/yan_rizqi03/">Instagram</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col mb-4">
+            <a href="https://linktr.ee/hafiyanrizqisanjaya">Linktree</a>
+          </div>
+        </div>
+        <div class="row pt-3 border-top border-light">
+          <div class="col-md-6 text-center text-md-left pb-3">
+            <p class="card-text">&#169; 2026 - Hafiyan Rizqi Sanjaya</p>
+          </div>
+        </div>
+      </div>
     </footer>
     <!-- End of footer -->
 
@@ -702,64 +1082,64 @@
     <script src="js/script.js"></script>
 
     <script>
-        var TxtType = function(el, toRotate, period) {
+      var TxtType = function (el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
         this.loopNum = 0;
         this.period = parseInt(period, 10) || 2000;
-        this.txt = '';
+        this.txt = "";
         this.tick();
         this.isDeleting = false;
-        };
-        
-        TxtType.prototype.tick = function() {
+      };
+
+      TxtType.prototype.tick = function () {
         var i = this.loopNum % this.toRotate.length;
         var fullTxt = this.toRotate[i];
-        
+
         if (this.isDeleting) {
-        this.txt = fullTxt.substring(0, this.txt.length - 1);
+          this.txt = fullTxt.substring(0, this.txt.length - 1);
         } else {
-        this.txt = fullTxt.substring(0, this.txt.length + 1);
+          this.txt = fullTxt.substring(0, this.txt.length + 1);
         }
-        
-        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-        
+
+        this.el.innerHTML = '<span class="wrap">' + this.txt + "</span>";
+
         var that = this;
         var delta = 200 - Math.random() * 100;
-        
-        if (this.isDeleting) { delta /= 2; }
-        
+
+        if (this.isDeleting) {
+          delta /= 2;
+        }
+
         if (!this.isDeleting && this.txt === fullTxt) {
-        delta = this.period;
-        this.isDeleting = true;
-        } else if (this.isDeleting && this.txt === '') {
-        this.isDeleting = false;
-        this.loopNum++;
-        delta = 500;
+          delta = this.period;
+          this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === "") {
+          this.isDeleting = false;
+          this.loopNum++;
+          delta = 500;
         }
-        
-        setTimeout(function() {
-        that.tick();
+
+        setTimeout(function () {
+          that.tick();
         }, delta);
-        };
-        
-        window.onload = function() {
-        var elements = document.getElementsByClassName('typewrite');
-        for (var i=0; i<elements.length; i++) {
-        var toRotate = elements[i].getAttribute('data-type');
-        var period = elements[i].getAttribute('data-period');
-        if (toRotate) {
-        new TxtType(elements[i], JSON.parse(toRotate), period);
-        }
+      };
+
+      window.onload = function () {
+        var elements = document.getElementsByClassName("typewrite");
+        for (var i = 0; i < elements.length; i++) {
+          var toRotate = elements[i].getAttribute("data-type");
+          var period = elements[i].getAttribute("data-period");
+          if (toRotate) {
+            new TxtType(elements[i], JSON.parse(toRotate), period);
+          }
         }
         // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid red}";
         document.body.appendChild(css);
-        };
+      };
     </script>
-
-</body>
-
+  </body>
 </html>
